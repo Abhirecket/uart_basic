@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uart_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="uart_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="201.000001 us"></ZoomEndTime>
+      <Cursor1Time time="18.540681 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group399" type="group">
+      <obj_property name="label">dut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/uart_tb/dut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rx" type="logic">
+         <obj_property name="ElementShortName">rx</obj_property>
+         <obj_property name="ObjectShortName">rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/dintx" type="array">
+         <obj_property name="ElementShortName">dintx[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dintx[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/newd" type="logic">
+         <obj_property name="ElementShortName">newd</obj_property>
+         <obj_property name="ObjectShortName">newd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/tx" type="logic">
+         <obj_property name="ElementShortName">tx</obj_property>
+         <obj_property name="ObjectShortName">tx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/doutrx" type="array">
+         <obj_property name="ElementShortName">doutrx[7:0]</obj_property>
+         <obj_property name="ObjectShortName">doutrx[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/donetx" type="logic">
+         <obj_property name="ElementShortName">donetx</obj_property>
+         <obj_property name="ObjectShortName">donetx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/donerx" type="logic">
+         <obj_property name="ElementShortName">donerx</obj_property>
+         <obj_property name="ObjectShortName">donerx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/clk_freq" type="array">
+         <obj_property name="ElementShortName">clk_freq[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clk_freq[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/baud_rate" type="array">
+         <obj_property name="ElementShortName">baud_rate[31:0]</obj_property>
+         <obj_property name="ObjectShortName">baud_rate[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group387" type="group">
+      <obj_property name="label">utx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/uart_tb/dut/utx/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/newd" type="logic">
+         <obj_property name="ElementShortName">newd</obj_property>
+         <obj_property name="ObjectShortName">newd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/tx_data" type="array">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/tx" type="logic">
+         <obj_property name="ElementShortName">tx</obj_property>
+         <obj_property name="ObjectShortName">tx</obj_property>
+         <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/donetx" type="logic">
+         <obj_property name="ElementShortName">donetx</obj_property>
+         <obj_property name="ObjectShortName">donetx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/count" type="array">
+         <obj_property name="ElementShortName">count[15:0]</obj_property>
+         <obj_property name="ObjectShortName">count[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/counts" type="array">
+         <obj_property name="ElementShortName">counts[3:0]</obj_property>
+         <obj_property name="ObjectShortName">counts[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/uclk" type="logic">
+         <obj_property name="ElementShortName">uclk</obj_property>
+         <obj_property name="ObjectShortName">uclk</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/clk_freq" type="array">
+         <obj_property name="ElementShortName">clk_freq[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clk_freq[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/baud_rate" type="array">
+         <obj_property name="ElementShortName">baud_rate[31:0]</obj_property>
+         <obj_property name="ObjectShortName">baud_rate[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/clkcount" type="array">
+         <obj_property name="ElementShortName">clkcount[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clkcount[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/IDLE" type="array">
+         <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/utx/TRANSFER" type="array">
+         <obj_property name="ElementShortName">TRANSFER[1:0]</obj_property>
+         <obj_property name="ObjectShortName">TRANSFER[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group370" type="group">
+      <obj_property name="label">rtx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/uart_tb/dut/rtx/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/rx" type="logic">
+         <obj_property name="ElementShortName">rx</obj_property>
+         <obj_property name="ObjectShortName">rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/rxdata" type="array">
+         <obj_property name="ElementShortName">rxdata[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rxdata[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/count" type="array">
+         <obj_property name="ElementShortName">count[15:0]</obj_property>
+         <obj_property name="ObjectShortName">count[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/counts" type="array">
+         <obj_property name="ElementShortName">counts[3:0]</obj_property>
+         <obj_property name="ObjectShortName">counts[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/uclk" type="logic">
+         <obj_property name="ElementShortName">uclk</obj_property>
+         <obj_property name="ObjectShortName">uclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/clk_freq" type="array">
+         <obj_property name="ElementShortName">clk_freq[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clk_freq[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/baud_rate" type="array">
+         <obj_property name="ElementShortName">baud_rate[31:0]</obj_property>
+         <obj_property name="ObjectShortName">baud_rate[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/clkcount" type="array">
+         <obj_property name="ElementShortName">clkcount[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clkcount[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/IDLE" type="array">
+         <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/uart_tb/dut/rtx/START" type="array">
+         <obj_property name="ElementShortName">START[1:0]</obj_property>
+         <obj_property name="ObjectShortName">START[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
